@@ -1,0 +1,163 @@
+h1{
+    font-size: 3rem;
+    line-height: 3.625rem;
+}
+h2{
+    font-size: 3rem;
+    line-height: 3.5;
+}
+p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+.main-container{
+    padding-left: 6rem;
+    margin-top: 150px;
+    font-size: 0.8cm;
+}
+.navbar-nav{
+    padding-left: 26rem;
+}
+#hero{
+    margin-top: 58px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("homepage-hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hero .heading{
+    font-size: 2.375rem;
+}
+#hero .tagline p{
+    font-size: 1.5rem;
+}
+#case-studies{
+    background-color: #f9f9f9;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+#case-studies .card{
+    border-color: transparent;
+    cursor: pointer;
+}
+#case-studies .card:hover{
+    box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.2);
+}
+#case-studies .card-1{
+    border-top-right-radius: 6rem;
+}
+#case-studies .card-2{
+    border-bottom-right-radius: 6rem;
+}
+#case-studies .card-3{
+    border-top-left-radius: 6rem;
+}
+.accordion-button{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.accordion-button:not(.collapsed) {
+    color: #2015ff;
+    background-color: transparent;
+}
+#competency{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #f9f9f9;
+}
+#outcomes{
+    background-color: #f9f9f9;
+    padding-bottom: 6rem;
+}
+#testimonials{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+#testimonials .logo-cloud{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+#testimonials .logo-cloud img{
+    max-height: 40px;
+    margin-bottom: 1.5rem;
+}
+#testimonials .testimonial-img{
+    border-radius: 2px;
+    border-top-right-radius: 6rem;
+    background-color: #2015ff;
+}
+#contact{
+    background-color: #1b1b57;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #0b0b0b;
+    font-size: 1rem;
+    line-height: 1.375rem;
+}
+.navbar-light .navbar-nav .nav-link.nav-btn{
+    color:#2015ff;
+}
+.navbar-nav .nav-link.nav-btn{
+    border: 2px solid #2015ff;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+.navbar-nav .nav-link.nav-btn:hover{
+    color:white;
+    background-color: #2015ff;
+}
+.btn{
+    padding: 1rem;
+    font-size: 1rem;
+}
+.btn-green-yellow{
+    background-color: #bdea09;
+    color: #0b0b0b;
+}
+.btn-primary{
+    background-color: #2015ff;
+    color: white;
+}
+.btn-primary:hover{
+    background-color: #170dc5;
+}
+a:not(.nav-link){
+    color:#2015ff;
+    font-weight:bold;
+
+}
+.dropdown-toggle::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: 0.255em;
+    content: "";
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+    display: inline-block;
+    border: 0;
+    vertical-align: middle;
+
+}
+
+footer{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+footer a:not(.nav-link){
+    color: #0b0b0b;
+    text-decoration: none;
+    font-weight: 400;
+}
+footer a:hover{
+    color:#2015ff;
+}
+.text-xm{
+    font-size: 00.85rem;
+}
